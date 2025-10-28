@@ -1,5 +1,5 @@
 import { Component, computed, inject } from '@angular/core';
-import { ToastService } from '../../Service/toast-service';
+import { ToastService } from '../../service/toast-service';
 import { NgFor, NgClass } from '@angular/common';
 import { Toast } from '../../model/toastModel';
 

@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { bootstrapApplication } from '@angular/platform-browser';
-import { AppComponent } from './Component/app/app';
+import { AppComponent } from './component/app/app';
 
 @Component({
   selector: 'app-root',
