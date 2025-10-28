@@ -56,7 +56,7 @@
   border-left-color: yellow;
 }
 .toast.info {
-  border-left-color: blue;
+  border-left-color: grey;
 }
 
 @keyframes toast-in {
