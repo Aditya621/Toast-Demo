@@ -1,0 +1,9 @@
+<div class="toast-wrapper">
+  <div *ngFor="let t of toasts()" class="toast" [ngClass]="t.kind">
+    <div class="left">
+      <span class="icon">{{ icon(t.kind) }}</span>
+      <span class="msg">{{ t.message }}</span>
+    </div>
+    <button class="close" (click)="remove(t.id)">✕</button>
+  </div>
+</div>
